@@ -70,4 +70,4 @@ CREATE TABLE Arayanlar (
     AktifMi BIT DEFAULT 1,
     OlusturmaTarihi DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (KisiID) REFERENCES Kisiler(KisiID)
-);arayanlar
+)
